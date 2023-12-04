@@ -6,6 +6,9 @@
   "files": [
     "build"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.pages.js --mode development",
     "test": "jest",
